@@ -47,6 +47,15 @@ public final class AdvancedMath {
         return product;
     }
 
+     /**
+     * Square of number
+     * @param num0 first number
+     * @return result
+     */
+    public static int square(int num0) {
+        return multiply(num0, num0);
+    }
+
     /**
      * Divide two numbers
      * @param num0 first number
